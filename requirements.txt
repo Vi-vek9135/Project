@@ -2,3 +2,8 @@ conda create -p venvupload python==3.10.0
 conda activate D:\Vivek_Roushan\Llama_Index\Project\To_Upload_documents_in_Drive\venvupload
 
 pip install google-api-python-client
+pip install pydrive
+pip install chromadb
+pip install llama-index
+pip install python-dotenv
+pip install openai
