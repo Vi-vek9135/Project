@@ -15,7 +15,7 @@ def upload_file_to_drive(file_path):
     service = build('drive', 'v3', credentials=creds)
 
     file_metadata = {
-        'name': "Hello",
+        'name': "Demo",
         'parents': [PARENT_FOLDER_ID]
     }
     file = service.files().create(body=file_metadata, media_body=file_path).execute()
