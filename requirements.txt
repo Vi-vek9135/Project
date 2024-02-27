@@ -6,3 +6,17 @@ PyDrive
 gkeepapi
 pip install llama-index
 pip install llama-index-readers-google
+%pip install llama-index-storage-docstore-redis
+%pip install llama-index-vector-stores-redis
+%pip install llama-index-embeddings-huggingface
+
+# requirements.txt
+llama-index-storage-docstore-redis
+llama-index-storage-kvstore-redis
+llama-index-vector-stores-redis
+llama-index-llms-anyscale
+llama-index-llms-langchain
+llama-index-extractors-entity
+llama-index-embeddings-huggingface
+streamlit
+pip install llama-index-llms-openai
