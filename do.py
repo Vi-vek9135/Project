@@ -72,7 +72,7 @@ import openai
 # OPENAI_API_KEY="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"
 
 # openai.api_key = "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"
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "sk-"
 
 llm = OpenAI(temperature=0, model="gpt-3.5-turbo")
 
